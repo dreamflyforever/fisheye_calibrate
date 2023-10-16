@@ -30,6 +30,7 @@ def get_K_and_D(checkerboard, imgsPath):
             objpoints.append(objp)
             cv2.cornerSubPix(gray,corners,(3,3),(-1,-1),subpix_criteria)
             imgpoints.append(corners)
+    print("==========================")
     N_OK = len(objpoints)
     K = np.zeros((3, 3))
     D = np.zeros((4, 1))
