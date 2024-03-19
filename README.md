@@ -1,10 +1,10 @@
-## fisheye_calibration
 
-## picture need
-use 'capture.py' to capture 50 picture
+### fisheye camera calibrate  
+This project is to get the fisheye camera K & D (instrinc and distortion parameter).
 
-## calibration
-use 'fisheye_calibration.py' to get K & D
+### usage  
+Use 'capture.py' to get picture at leaste 30, and get more angle, about 80cm distance from checkerboard.
+Put picture in 'picutre' folder, run the fisheye_calibration.py to get parameter.
 
-## license  
-MIT
+### license  
+MIT by Jim.
