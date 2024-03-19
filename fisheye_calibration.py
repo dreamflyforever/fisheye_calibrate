@@ -63,7 +63,7 @@ def undistort(img_path,K,D,DIM,scale=0.6,imshow=False):
 if __name__ == '__main__':
  
    #(1)开始使用图片来获取内参和畸变系数
-    DIM, K, D = get_K_and_D((8,11), 'picture')
+    DIM, K, D = get_K_and_D((6,9), 'picture')
  
    #(2)利用得到内参和畸变系数畸变矫正图片进行测试
     # DIM=(1600, 1200)
